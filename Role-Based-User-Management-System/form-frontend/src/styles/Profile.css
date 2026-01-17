@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+.profile-page {
+  @apply min-h-screen bg-slate-50 flex items-center justify-center p-6;
+}
+
+.profile-card {
+  @apply w-full max-w-xl bg-white rounded-2xl shadow-xl shadow-slate-200/60 p-8 border border-slate-100;
+}
+
+
+.avatar-container {
+  @apply flex flex-col items-center mb-8;
+}
+
+.avatar-preview {
+  @apply w-32 h-32 rounded-full object-cover ring-4 ring-blue-50 shadow-md border-2 border-white mb-4;
+}
+
+.file-input-custom {
+  @apply text-sm text-slate-500 file:mr-4 file:py-2 file:px-4
+         file:rounded-full file:border-0 file:text-sm file:font-semibold
+         file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100
+         cursor-pointer transition-all;
+}
+
+
+.form-grid {
+  @apply space-y-5;
+}
+
+.input-group {
+  @apply flex flex-col gap-1.5;
+}
+
+.input-label {
+  @apply text-sm font-semibold text-slate-700 ml-1;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50
+         focus:bg-white focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 
+         transition-all outline-hidden text-slate-800;
+}
+
+
+/* .btn-update {
+  @apply w-full py-3 mt-4 bg-blue-600 text-white font-bold rounded-xl
+         hover:bg-blue-700 shadow-lg shadow-blue-200 active:scale-[0.98]
+         transition-all duration-200;
+} */
+
+/* .btn-delete{
+  @apply w-full py-3 mt-4 bg-red-600 text-white font-bold rounded-xl
+         hover:bg-red-700 shadow-lg shadow-blue-200 active:scale-[0.98]
+         transition-all duration-200;
+} */
+
+.back-link {
+  @apply flex items-center gap-2 text-slate-400 hover:text-blue-600 font-medium 
+         transition-colors text-sm mb-2;
+}

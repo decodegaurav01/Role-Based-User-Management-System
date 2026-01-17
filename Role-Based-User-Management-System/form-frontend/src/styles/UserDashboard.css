@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+.dashboard-wrapper {
+  @apply min-h-screen bg-slate-50 flex items-center justify-center p-10;
+}
+.dashboard-card {
+  @apply bg-white shadow-lg rounded-2xl p-8 w-full max-w-md;
+}
+
+
+
+.btn-user-logout {
+  @apply px-5 py-2.5  bg-rose-50 text-rose-600 font-semibold rounded-lg 
+         hover:bg-rose-600 hover:text-white transition-all duration-200 ;
+}
+
+
+
+.profile-header {
+  @apply flex flex-col items-center text-center mb-10;
+}
+
+.avatar-large {
+  @apply w-32 h-32 rounded-full object-cover ring-4 ring-white shadow-md border border-slate-100 mb-4;
+}
+
+.user-name-title {
+  @apply text-2xl font-extrabold text-slate-800 tracking-tight;
+}
+
+.user-role-badge {
+  @apply mt-1 px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full uppercase;
+}
+
+
+.info-section {
+  @apply  border-t border-slate-50 pt-4;
+}
+
+.info-item {
+  @apply flex items-center justify-between border-b border-slate-50 pb-4;
+}
+
+.info-label {
+  @apply text-sm font-semibold text-slate-800 uppercase tracking-wider;
+}
+
+.info-value {
+  @apply text-slate-700 font-medium;
+}
+
+
+.edit-input {
+  @apply  bg-slate-50 px-3 py-1 rounded-lg border border-transparent focus:border-blue-300 focus:bg-white outline-hidden transition-all text-slate-500 font-medium;
+}
+
+.update-btn {
+  @apply w-full mt-10 py-4 bg-blue-100 border border-slate-200 text-blue-600 font-bold rounded-xl
+         hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-200;
+}
+
+
+.file-select-label {
+  @apply mt-2 text-sm text-blue-600 font-medium cursor-pointer hover:underline;
+}
