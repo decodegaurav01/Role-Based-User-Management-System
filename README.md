@@ -116,11 +116,13 @@ src/
 │
 ├── routes/
 │   ├── AppRoutes.jsx
-│   └── RoleRoute.jsx
+│   └── ProtectedRoute.jsx
 │
 ├── services/
-│   └── service.js
-│
+│   |── userService.js
+│   └── adminService.js
+|   └── authService.js 
+|
 ├── styles/
 │   ├── Login.css
 │   └── Register.css
